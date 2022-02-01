@@ -154,8 +154,8 @@ ul li a {
 .top {
     height: 40px;
     width: 60px;
-    right: 22px;
-    bottom: 0;
+    right: 80px;
+    bottom: 60px;
     position: fixed;
     background: red;
     z-index: 1;
