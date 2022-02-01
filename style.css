@@ -97,7 +97,9 @@ ul li a {
     text-decoration: underline;
     color: darkmagenta;
 }
-
+.list ul li:hover {
+    background: turquoise;
+}
 /* list End */
 
 /* content strat */
