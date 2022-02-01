@@ -95,11 +95,13 @@ ul li a {
 
 .list ul li a:hover {
     text-decoration: underline;
-    color: darkmagenta;
+    color: rgb(212, 4, 212);
 }
+
 .list ul li:hover {
     background: turquoise;
 }
+
 /* list End */
 
 /* content strat */
@@ -149,7 +151,7 @@ ul li a {
 
 /* footer End */
 
-/* #scrol-top {
+.top {
     height: 40px;
     width: 60px;
     right: 22px;
@@ -158,4 +160,10 @@ ul li a {
     background: red;
     z-index: 1;
     border-radius: 8px;
-} */
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-weight: 800;
+    scroll-behavior: smooth;
+}
