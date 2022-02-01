@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header strat */
+.header {
+    /* max-width: 1280px;
+    margin: auto; */
+    display: flex;
+    justify-content: space-between;
+    background: cornflowerblue;
+    height: 50px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.head-menu {
+    padding: 10px;
+    font-weight: 800;
+    font-size: x-large;
+}
+
+.head-menu a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.head-menu a:hover {
+    text-decoration: underline;
+    color: darkmagenta;
+}
+
+.head-logo {
+    padding: 10px;
+    font-weight: 800;
+    font-size: x-large;
+}
+
+.head-logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.head-logo a:hover {
+    text-decoration: underline;
+    color: darkmagenta;
+}
+
+.search {
+    margin: 0 10px;
+    height: 30%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* header end */
+
+/* img strat */
+.img {
+    max-width: 1280px;
+    margin: auto;
+}
+
+/* img end */
+
+/* List strat */
+.list {
+    max-width: 1280px;
+    margin: auto;
+    background: rgb(159, 255, 255);
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style: none;
+    background: rgb(0, 153, 153);
+    padding: 10px;
+    border-radius: 0px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.list ul li a:hover {
+    text-decoration: underline;
+    color: darkmagenta;
+}
+
+/* list End */
+
+/* content strat */
+.content {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: raw;
+    background: rgb(159, 171, 194);
+    height: 900px;
+
+}
+
+.left {
+    width: 300px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.middle {
+    width: 300px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.right {
+    width: 300px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* content End */
+
+/* fotter strat */
+
+.fotter {
+    max-width: 1280px;
+    margin: auto;
+    background: teal;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+    font-weight: 900;
+}
+
+/* footer End */
+
+/* #scrol-top {
+    height: 40px;
+    width: 60px;
+    right: 22px;
+    bottom: 0;
+    position: fixed;
+    background: red;
+    z-index: 1;
+    border-radius: 8px;
+} */
